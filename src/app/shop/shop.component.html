@@ -205,7 +205,10 @@
       <div class="col-12 col-md-9">
         <div class="products">
           <div class="col-6 col-lg-4">
-            <div routerLink="/product/1" class="item-card">
+            <div
+              (click)="gotoProductDetails('/product', '1')"
+              class="item-card"
+            >
               <div class="item-img">
                 <img src="assets/home/Image 6.png" />
               </div>
